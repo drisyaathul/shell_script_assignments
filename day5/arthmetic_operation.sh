@@ -1,10 +1,8 @@
 #Enter 3 Numbers do following arithmetic operation and find the one that is maximum and minimum:
 
-
-#!/bin/bash
+n#!/bin/bash
 
 #1) a + b * c	2)a % b + c	3) c + a / b	4) a * b + c
-
 
 
 read -p "Enter 1st Number = " a;
