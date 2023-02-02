@@ -11,9 +11,7 @@ d=$((RANDOM%200+100));
 e=$((RANDOM%200+100));
 
 
-
 echo "Random numbers are: "
-
 
 
 echo "Number1: " $a;
