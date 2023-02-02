@@ -3,6 +3,7 @@
 
 #!/bin/bash
 
+
 read -p "Enter a singlr digit number = " number;
 
 case $number in
