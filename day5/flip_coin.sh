@@ -2,6 +2,8 @@
 
 #!/bin/bash
 
+
+
 coin=$((RANDOM%2));
 
 if [ $(($coin)) -eq 0 ];
