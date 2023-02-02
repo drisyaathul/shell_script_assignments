@@ -3,6 +3,7 @@
 
 #!/bin/bash
 
+
 read -p "Enter the number: " number
 
 if [ $number -eq 1 ]
