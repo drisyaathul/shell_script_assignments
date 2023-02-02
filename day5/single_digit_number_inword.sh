@@ -3,6 +3,7 @@
 
 #!/bin/bash
 
+
 read -p "Enter a single digit number = " number;
 
 if [ $number -eq 0 ];
