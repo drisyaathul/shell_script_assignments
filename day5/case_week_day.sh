@@ -5,6 +5,7 @@
 
 read -p "Enter a number (1-7) = " number;
 
+
 case $number in
 
 	1)
