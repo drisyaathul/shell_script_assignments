@@ -1,4 +1,4 @@
-#Five Random 3 Digit values
+#Five Random 3 Digit values:
 
 
 #!/bin/bash
