@@ -4,7 +4,6 @@
 #!/bin/bash
 
 
-
 read -p "Enter the Year (YYYY) = " year;
 
 if [ $(($year %400)) -eq 0 ];
