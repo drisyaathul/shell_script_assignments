@@ -9,28 +9,30 @@
 read -p "Enter the date in the format (Month 00): " date
 
 month=`echo $date | awk '{print $1}'`
+
 month=${month^^}
+
 day=`echo $date | awk '{print $2}'`
-#day="$day"
-#month="$month"
+
+
 
 if [ $month = "MARCH" ]&&[ $day -ge 20 ]&&[ $day -le 31 ];
 then
-echo "True"
+	echo "True"
 
 elif [ $month = "APRIL" ]&&[ $day -ge 1 ]&&[ $day -le 30 ];
 then
-echo "True"
+	echo "True"
 
 elif [ $month = "MAY" ]&&[ $day -ge 1 ]&&[ $day -le 31 ];
 then
-echo "True"
+	echo "True"
 
 elif [ $month = "JUNE" ]&&[ $day -ge 1 ]&&[ $day -le 20 ];
 then
-echo "True"
+	echo "True"
 
 else
-echo "False"
-
+	echo "False"
+	
 fi
