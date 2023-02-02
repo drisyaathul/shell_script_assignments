@@ -1,5 +1,7 @@
 # Write a program that reads 5 Random 2 Digit values,then find their sum and the average:
 
+
+
 #!/bin/bash
 
 a=$((RANDOM%20+10));
