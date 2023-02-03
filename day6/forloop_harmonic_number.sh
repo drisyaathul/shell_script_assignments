@@ -10,7 +10,7 @@ read -p "Enter the limit = " n;
 
 sum=0;
 
-for((i=1; i<=$n; i++));
+for((i=1; i<=n; i++));
 
 do	
 	x=`echo $i | awk '{print 1/$n}'`;
