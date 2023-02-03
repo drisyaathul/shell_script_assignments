@@ -8,11 +8,12 @@ factors=0
 
 read -p "Enter the number: " n
 
+
 for((i=2; i<=$n-1; i++));
 
-
-
 do
+
+
 		if [ $(($n%$i)) -eq 0 ];
 		then
                 factors+=1
