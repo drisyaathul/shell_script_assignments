@@ -11,7 +11,6 @@ sum=0;
 
 for i in ${arr[@]};
 
-
 do
     
 	sum=`expr $sum + $i`;
